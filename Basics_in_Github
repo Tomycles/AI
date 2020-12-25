@@ -1,5 +1,27 @@
 
-Github’s official git cheat sheets! Handy for remembering the everyday commands you’ll use: https://training.github.com/
- 
 Basic guide for beginners: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+How to begin a repository:
+
+ Create a local repository: Create a folder in your computer and run git init therein
+
+ Link your local repository to a remote repository in Github.com: git remote add origin https://github.com/[your_repo].git
+
+
+How to add a file or folder from the local to the remote repository:
+ 
+ Add the file: Every file in the folder containing the local repository can be added to the local repository by git add [file]
+
+ Create a commit: git commit -m "Your message about the commit".
+
+ Change you branch name to match you remote repo name: git branch -m [local branch] [remote branch]  for instance git branch -m master main 
+ 
+ Push to to remote repo: git push -u origin main
+
+
+Some useful commands:
+
+ See status: git status
+ 
+ See local branches: git branch
 
